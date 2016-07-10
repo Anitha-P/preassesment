@@ -15,6 +15,7 @@ void towerofhanoi(int num,char from,char to,char aux)
 
 int main(){
     int num;
+    printf("enter the number of disk :  ")
     scanf("%d",&num);
     towerofhanoi(num,'A','C','B');
     return 0;
