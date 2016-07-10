@@ -1,16 +1,18 @@
 #include<stdio.h>
-#include<conio.h>
+
 int main()
 {
 int i,j,a[50],b[50],n,t;
-clrscr();
-printf("\n Enter the value  :  ");
+
+printf("\n Enter the no of value  :  ");
 scanf("%d",&n);
+printf("enter the first set value  :  ");
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
 a[i]=b[i];
 }
+printf("enter the second set value  :  ");
 for(j=0;j<n;j++)
 {
 scanf("%d",&a[j]);
@@ -44,6 +46,6 @@ for(i=0;i<n;i++)
 printf("%d",a[i]);
 }
 return 0;
-getch();
+
 
 }
