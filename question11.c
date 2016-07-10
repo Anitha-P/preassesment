@@ -14,7 +14,7 @@ for(i=0;i<2*n1;i++)
 x=2*n1-i;
 if(p!=x)
 {
-printf("The pair is %d for days %d is %d\n",p,j++,p);
+printf("The pair for %d  day  is %d and %d\n",p,j++,p);
 }
 }
 getch();
